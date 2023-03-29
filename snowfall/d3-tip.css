@@ -1,0 +1,17 @@
+.d3-tip {
+  line-height: 1.5;
+  /* font-weight: bold; */
+  padding: 15px;
+  background: #fff;
+  color: rgb(26, 23, 23);
+  border-radius: 2px;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+  pointer-events: none;
+}
+
+circle:hover {
+  fill: rgb(227, 225, 223);
+  stroke: black;
+}

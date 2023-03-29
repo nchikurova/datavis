@@ -8,6 +8,7 @@ class Table {
       .sort((a, b) =>
         d3.descending(a["Total Housing Units"], b["Total Housing Units"])
       );
+    console.log(slimmedData);
 
     // first map our values to a logarithmic scale
     const logScale = d3
